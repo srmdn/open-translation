@@ -56,6 +56,8 @@ Translate locale values safely.
 - Localize borrowed interface nouns when the target-language product style already has a natural equivalent.
 - Prefer action labels that match what the control does, not mechanically literal translations of the source wording.
 - If a product term such as `streak` or a bookmark/save verb has no settled policy, prefer the clearest natural wording and keep the choice consistent across related strings.
+- If a term like `streak` stays in English, make the surrounding Indonesian phrase sound native instead of preserving the source metaphor mechanically.
+- When bookmark/save terminology is unresolved, prefer clear `simpan`-based product wording over awkward hybrids or stiff passive labels.
 
 Prefer:
 
@@ -64,12 +66,16 @@ Prefer:
 - `Karusel kartu flash` if the product localizes `carousel`
 - short action labels such as `Tambahkan`, `Tulis`, or `Buka` when they fit the UI pattern
 - reminder phrasing such as `tinggal {{minutesLeft}} menit lagi` when it reads more naturally than a literal distance metaphor
+- `pertahankan streak Anda` or `streak Anda tetap berlanjut` when `streak` remains untranslated
+- `Simpan`, `Disimpan`, or `refleksi yang disimpan` when that fits the product pattern better
 
 Over:
 
 - `Mengeklik ... akan ...`
 - long explanatory UI labels
 - literal carryover of interface nouns without checking product style
+- `mem-bookmark`
+- `menjaganya tetap hidup` or `tetap berjalan` when the phrase sounds like imported metaphor rather than native UI copy
 
 ## Final Check
 
