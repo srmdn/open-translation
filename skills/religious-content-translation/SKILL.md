@@ -7,6 +7,12 @@ description: Use this for translation or review of religious content where tone,
 
 Translate religious content with accuracy, clarity, and tone sensitivity.
 
+## Scope Boundary
+
+- Use this for devotional, educational, editorial, or explanatory religious prose where reverence and doctrinal sensitivity matter.
+- For generic UI strings or locale dictionaries, use `locale-translation`.
+- For ordinary prose with no religious sensitivity, use `general-translation`.
+
 ## Use Cases
 
 - educational religious prose
@@ -22,6 +28,7 @@ Translate religious content with accuracy, clarity, and tone sensitivity.
 - Avoid casual reframing when the source is reverent or formal.
 - Do not inject interpretation beyond what the source supports.
 - Preserve names, citations, and canonical references accurately.
+- If a literal phrasing sounds imported or spiritually flat, prefer more natural reverent target-language wording without adding doctrinal content.
 
 ## Inputs To Infer
 
@@ -37,6 +44,27 @@ Translate religious content with accuracy, clarity, and tone sensitivity.
 - flattened reverent tone
 - inconsistent religious terms
 - overconfident paraphrase
+- literal contemplative phrasing that sounds translated rather than spiritually natural
+
+## Wording Guidance
+
+- Prefer reverent target-language phrasing that sounds native to religious or reflective prose.
+- Keep devotional calm and humility, but avoid inflated wording that obscures meaning.
+- When rendering contemplative concepts, choose natural spiritual language over mechanically literal phrasing.
+
+Prefer:
+
+- `refleksi adalah cara ...`
+- `apa yang digerakkan ayat dalam hati`
+- `lafaznya meresap`
+- `tradisi keilmuan Islam` or another project-appropriate scholarly term
+
+Over:
+
+- `refleksi adalah sebuah cara ...`
+- `apa yang dibangkitkan oleh sebuah ayat di dalam hati`
+- `membiarkan kata-kata itu menetap`
+- `keilmuan tradisi`
 
 ## Final Check
 
