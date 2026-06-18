@@ -1,0 +1,48 @@
+---
+name: translation-review
+description: Use this to review, critique, and improve translation outputs. Checks fidelity, tone, terminology, structural safety, and human-sounding quality across general prose, technical docs, locale files, and other translation tasks.
+---
+
+# Translation Review
+
+Review a translation before treating it as final.
+
+## Review Goals
+
+- fidelity to source meaning
+- target-language naturalness
+- terminology consistency
+- structure and token safety
+- domain fit
+
+## Review Workflow
+
+1. Check meaning preservation.
+2. Check tone and audience fit.
+3. Check domain-specific terminology.
+4. Check structure-sensitive tokens and formatting.
+5. Check whether the text sounds human or machine-made.
+6. Suggest fixes only where needed.
+
+## Review Inputs
+
+- source text
+- translated text
+- source language
+- target language
+- task type
+- format
+
+## Failure Modes To Catch
+
+- missing or added meaning
+- awkward literal phrasing
+- broken placeholders or formatting
+- inconsistent terms
+- AI-sounding polish or filler
+
+## Output Style
+
+- concise findings first
+- examples of better phrasing when useful
+- preserve what is already good
