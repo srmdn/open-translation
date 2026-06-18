@@ -44,6 +44,11 @@ That means the intended model is:
 - keep code, Markdown, locale tokens, and other runtime-sensitive structure safe
 - use evaluation to refine skills, not only intuition
 
+## Audience Docs
+
+- For end-user expectations, see [END-USERS.md](./END-USERS.md).
+- For contributor workflow, evaluation, and model assumptions, see [CONTRIBUTOR-GUIDE.md](./CONTRIBUTOR-GUIDE.md).
+
 ## Repo Layout
 
 ```text
@@ -52,6 +57,8 @@ skills/
     SKILL.md
 AGENTS.md
 CONTRIBUTING.md
+CONTRIBUTOR-GUIDE.md
+END-USERS.md
 LICENSE
 ```
 
@@ -64,7 +71,7 @@ Current state:
 - initial skill set scaffolded
 - private PRD and roadmap in local workspace
 - private evaluation harness seeded with real OSS translation cases
-- first evaluation-driven refinements already applied to docs and locale skills
+- first evaluation-driven refinements already applied to core translation skills
 
 Planned later:
 
@@ -74,7 +81,7 @@ Planned later:
 
 ## Contributing
 
-See [CONTRIBUTING.md](./CONTRIBUTING.md).
+See [CONTRIBUTING.md](./CONTRIBUTING.md) for contribution policy and [CONTRIBUTOR-GUIDE.md](./CONTRIBUTOR-GUIDE.md) for the working process.
 
 Short version:
 

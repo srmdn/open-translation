@@ -7,6 +7,13 @@ description: Use this for general translation between languages when the goal is
 
 Translate for meaning, tone, and readability.
 
+## Scope Boundary
+
+- Use this for prose and everyday text that does not have strict runtime or format constraints.
+- For locale files and UI dictionaries, use `locale-translation`.
+- For Markdown, MDX, README, and developer docs, use `technical-docs-translation`.
+- For persuasion-heavy product or campaign copy, use `marketing-translation`.
+
 ## Use Cases
 
 - prose
@@ -43,17 +50,22 @@ Translate for meaning, tone, and readability.
 - Replace stiff procedural openers with more natural sentence flow when meaning stays intact.
 - Avoid generic product nouns if the target language has a simpler, more human phrasing.
 - Rewrite abstract explanatory prose so it reads like something a person would naturally say or write.
+- When two phrasings are equally faithful, choose the one that sounds like original writing in the target language, not translated copy.
+- In product-help or interface-adjacent prose, avoid formal nouns and repeated verb structure if a shorter native phrasing says the same thing.
 
 Prefer:
 
 - `Saat Anda mengeklik ...`
 - `tempat untuk berbagi ...`
+- `refleksi berisi wawasan ...`
+- `Tap "Continue" to return to your last lesson.`
 - direct, flowing sentence structure
 
 Over:
 
 - `Mengeklik ... akan ...`
 - `platform untuk ...` when it adds no value
+- `enter the learning room to continue the last lesson`
 - accurate but flat sentence structure
 
 ## Final Check
