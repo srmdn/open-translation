@@ -10,13 +10,16 @@
 ## Repo Layout
 
 - `skills/<skill-name>/SKILL.md` for each installable skill
+- `docs/end-users/` for public end-user documentation
+- `docs/contributors/` for public contributor documentation
 - optional local-only workspace under `.local/`
   - `.local/PRD.md` for private product definition
   - `.local/ROADMAP.md` for private sequencing and milestones
   - `.local/eval/` for private evaluation cases, rubric, and run logs
 - Reserve room for future `mcp/`, `web/`, and shared core modules if the repo expands
 - Avoid extra docs inside skill folders unless required by the skill design
-- Shared repo docs may live at repo root only
+- Keep root docs minimal: repo entry files such as `README.md`, `LICENSE`, and `AGENTS.md`
+- Place audience-specific public docs under `docs/end-users/` and `docs/contributors/`
 
 ## Skill Design Rules
 

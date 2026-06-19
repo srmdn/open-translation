@@ -41,9 +41,9 @@ Public repo content:
 
 - `AGENTS.md`
 - `README.md`
-- `CONTRIBUTING.md`
-- `CONTRIBUTOR-GUIDE.md`
-- `END-USERS.md`
+- `docs/contributors/CONTRIBUTING.md`
+- `docs/contributors/README.md`
+- `docs/end-users/README.md`
 - `LICENSE`
 - `skills/`
 

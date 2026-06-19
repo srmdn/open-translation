@@ -46,8 +46,38 @@ That means the intended model is:
 
 ## Audience Docs
 
-- For end-user expectations, see [END-USERS.md](./END-USERS.md).
-- For contributor workflow, evaluation, and model assumptions, see [CONTRIBUTOR-GUIDE.md](./CONTRIBUTOR-GUIDE.md).
+- End users: [docs/end-users/README.md](./docs/end-users/README.md)
+- Contributors: [docs/contributors/README.md](./docs/contributors/README.md)
+- Contribution policy: [docs/contributors/CONTRIBUTING.md](./docs/contributors/CONTRIBUTING.md)
+
+## How To Use
+
+Current reality:
+
+- this repo ships translation skills
+- it does not yet ship MCP tools or a web app
+
+Today, the main way to use `open-translation` is to apply one skill in an AI agent workflow such as Codex, ChatGPT, or Claude.
+
+Basic flow:
+
+1. Pick the skill that matches your task.
+2. Give the model your source text plus source and target language.
+3. Tell the model to use that skill for the translation.
+4. For sensitive output, follow with `translation-review`.
+
+Quick skill chooser:
+
+- everyday prose or chat: `general-translation`
+- Markdown or developer docs: `technical-docs-translation`
+- locale strings or UI copy: `locale-translation`
+- campaigns or CTA-heavy copy: `marketing-translation`
+- spoken on-screen dialogue: `subtitle-translation`
+- religious or reverent material: `religious-content-translation`
+- make writing sound less generic: `anti-slop-writing`
+- inspect translation quality: `translation-review`
+
+For examples and practical usage notes, see [docs/end-users/README.md](./docs/end-users/README.md).
 
 ## Repo Layout
 
@@ -56,9 +86,12 @@ skills/
   <skill-name>/
     SKILL.md
 AGENTS.md
-CONTRIBUTING.md
-CONTRIBUTOR-GUIDE.md
-END-USERS.md
+docs/
+  contributors/
+    CONTRIBUTING.md
+    README.md
+  end-users/
+    README.md
 LICENSE
 ```
 
@@ -81,7 +114,7 @@ Planned later:
 
 ## Contributing
 
-See [CONTRIBUTING.md](./CONTRIBUTING.md) for contribution policy and [CONTRIBUTOR-GUIDE.md](./CONTRIBUTOR-GUIDE.md) for the working process.
+See [docs/contributors/CONTRIBUTING.md](./docs/contributors/CONTRIBUTING.md) for contribution policy and [docs/contributors/README.md](./docs/contributors/README.md) for working process.
 
 Short version:
 
